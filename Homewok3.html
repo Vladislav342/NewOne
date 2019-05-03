@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homework 3</title>
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<script>
+		
+		//Task 1-------------------------------------------
+		/*function arrayFill(a,b){
+		let arr = [];
+			for(let i=0;i<b;i++){
+				arr.push(a);
+			}
+			return arr;
+		}
+		console.log(arrayFill("x", 5));*/
+		//-------------------------------------------------
+
+		//Task 2-------------------------------------------
+			/*let arr=[[1,2,3], [4,5], [6]];
+			let sum = 0;
+			for(let i=0;i<arr.length;i++){
+				for(let j=0;j<arr[i].length;j++){
+					sum+=arr[i][j];
+				}
+			}
+			
+		console.log(sum);*/
+		//-------------------------------------------------
+
+		//Task 3-------------------------------------------
+		/*let arr = [[[1,1,1], [1,1]], [[1], [1,1,1,1]], [[1,1,1,1]]];
+			let sum = 0;
+			for(let i=0;i<arr.length;i++){
+				for(let j=0;j<arr[i].length;j++){
+					for(let k=0;k<arr[i][j].length;k++){
+						sum+=arr[i][j][k];
+					}	
+				}
+			}
+			console.log(sum);*/
+		//-------------------------------------------------
+
+		//Task 4-------------------------------------------
+		/*let num=+prompt("Vvedite chislo", " ");
+		function isNumberIsRange(num){
+			if(num>0 && num<10){
+				alert(true);
+			}else alert(false);
+		}
+		isNumberIsRange(num);*/
+		//-------------------------------------------------
+
+		//Task 5-------------------------------------------
+		/*let num=+prompt("Vvedite chislo", " ");
+		function isNumberIsRange(num){
+			if(num>0 && num<10){
+				alert(true);
+			}else alert(false);
+		}
+		isNumberIsRange(num);*/
+		//-------------------------------------------------
+
+		//Task 6-------------------------------------------
+		/*let arr = [1,2,3,4,5,6,7,8,9,10,12,13,16,17,18];
+		let result = [];
+		function isEven(){
+			for(let i=0;i<arr.length;i++){
+				if(arr[i]%2==0){
+					result.push(arr[i]);
+				}
+			}
+			console.log(result);
+		}
+		isEven();*/
+		//-------------------------------------------------
+
+		//Task 7-------------------------------------------
+		/*let num=+prompt("Enter the number", " ");
+		function getDivisors(num){
+			let arr=[];
+			for(let i=1;i<=num;i++){
+					if(num%i==0 ){
+						arr.push(i);	
+				}
+			}
+			return arr;
+		}
+		console.log(getDivisors(num));*/
+		//-------------------------------------------------
+
+		//Task 8-------------------------------------------
+		/*let i, j;
+		const N = 11;
+		for(j=1;j<N;j++){
+			for(i=1;i<N;i++){
+				document.write(i*j+" ");
+			}
+			document.write("<br>");
+		}*/
+		//-------------------------------------------------
+
+		//Task 9-------------------------------------------
+		/*function pow(a, b){
+			alert(Math.pow(a, b));
+		}
+		pow(2, 4);*/
+		//-------------------------------------------------
+
+		//Task 10------------------------------------------
+		/*let age =prompt("Сколько вам лет?"," ");
+		function check(age){
+			if(age>=16){
+				alert("Добро пожаловать!");
+			}else alert("Вы еще молоды!");
+		}
+		check(age);*/
+		//-------------------------------------------------
+
+		//Task 11------------------------------------------
+		/*let age =prompt("Сколько вам лет?"," ");
+		function check(age){
+			if(age>=16){
+				alert("Добро пожаловать!");
+			}else if(age===undefined || age===" "){
+				age= prompt("Введите возраст"," ");
+				if(age>=16){
+				alert("Добро пожаловать!");
+				}else alert("Вы еще молоды!");
+			}else alert("Вы еще молоды!");
+		}
+		check(age);*/
+		//-------------------------------------------------
+
+		//Task 12------------------------------------------
+		/*function arr(array){
+			if(!array=={} || array==null){
+				alert("The argument is absent!");
+			}else{
+				alert(array.length);
+			}
+		}
+		arr([1,2,3,4,5,6,7,8,9]);*/
+		//-------------------------------------------------
+
+		//Task 13------------------------------------------
+		/*let num = prompt("Vvedite chislo:", "null");
+		function check(num){
+			if(num>10){
+				return num*num;
+			}else if(num<7){
+				alert("num < 7");
+			}else if(num==8){
+				return 7;
+			}else if(num==9){
+				return 8;
+			}else{
+				alert("Arror!");
+			}
+		}
+		let x = check(num);
+		console.log(x);*/
+		//-------------------------------------------------
+
+		//Task 14------------------------------------------
+		/*let str="bla bla bla bla bla bla bla";
+
+		let arr=[];
+		arr= str.split(' ');
+		console.log(arr);
+
+		function ucfirst(str){
+			return str[0].toUpperCase()+str.substr(1);
+		}
+
+		let newArr=[];
+		for(i=0;i<arr.length;i++){
+			newArr.push(ucfirst(arr[i]));
+		}
+
+		let newStr=newArr.join(" ");
+		alert(newStr);*/
+		//-------------------------------------------------
+
+		//Task 15------------------------------------------
+		/*let str="var_text_hello";
+
+		let arr=[];
+		arr=str.split("_");
+		console.log(arr);
+
+		function ucifirst(str){
+			return str[0].toUpperCase()+str.substr(1);
+		}
+
+		let newArr=[];
+		for(i=0;i<arr.length;i++){
+			newArr.push(ucifirst(arr[i]));
+		}
+
+		let newStr=newArr.join("_");
+		alert(newStr);*/
+		//-------------------------------------------------
+
+		//Task 15 (2)--------------------------------------
+		//-------------------------------------------------
+
+		//Task 16------------------------------------------
+		/*let str="123456";
+
+		let arr=str.split("");
+		console.log(arr);
+
+		arr.splice(0,6,2,1,4,3,6,5);
+		console.log(arr);
+
+		let newStr=arr.join("");
+		alert(newStr);*/
+		//-------------------------------------------------
+
+		//Task 17------------------------------------------
+			/*function sequence(start, step){
+				return function(){
+					return start+= step;
+				};
+			}
+
+			let generator= sequence(10, 3);
+			let generator2=sequence(5, 6);
+			console.log(generator());
+			console.log(generator());
+			console.log(generator2());
+			console.log(generator2());
+			console.log(generator());
+			console.log(generator());*/
+		//-------------------------------------------------
+
+		//Task 18------------------------------------------
+		/*function sequence(start, step){
+			return function(){
+				return start+=step;
+			};
+		}
+		let gen = sequence(0,2);
+		
+		let take =function (fn, x){
+			let arr=[];
+			for(i=0;i<x;i++){
+				arr[i]=fn();
+			}
+			return arr;
+		}
+		console.log(take(gen, 5));*/
+		//------------------------------------------------
+
+		//Task 19-----------------------------------------
+			/*function squre(x){
+				return x*x;
+			}
+			function map(fn, arr){
+				let arr2=[];
+				for(i=0;i<arr.length;i++){
+					arr2[i]=fn(arr[i]);
+				}
+				return arr2;
+			}
+			console.log(map(squre,[1,2,3]));*/
+		//------------------------------------------------
+
+		//Task 20-----------------------------------------
+		/*function squre(x){
+				return x*x;
+			}
+		function sequence(start, step){
+			return function(){
+				return start+= step;
+			};
+		}
+		let gen= sequence(1,1);
+			
+		function fmap(a, gen){
+ 			let x = 0;
+ 			let x1 = 0;
+ 			let generation1 = function(){
+  				let arr1 = [];
+  				for(let i = 0; i<arguments.length; i++){
+   					arr1[i] = arguments[i];
+ 	 			}
+ 				x = gen.apply(null, arr1);
+  				x1 = a(x);
+  				return x1;
+ 			}
+ 			return generation1;
+		}
+		let squareGen=fmap(squre, gen)
+		console.log(squareGen());
+		console.log(squareGen());
+		console.log(squareGen());
+		console.log(squareGen());*/
+		//------------------------------------------------
+
+		//Task 21-----------------------------------------
+		let input=[1,2,3,4,5,6,7,8,9,10];
+		function isEven(x){
+			return x%2==0;
+		}
+
+		function filter(fn,arr){
+			let arr2=[];
+			for(i=0;i<arr.length;i++){
+				arr2[i]=fn(arr[i]);
+				
+			}
+			return arr2;
+		}
+		console.log(filter(isEven, input));
+
+		/*let num=input.filter(function(number){
+			return number%2==0;
+		});
+		console.log(num);*/
+		//------------------------------------------------
+	
+	</script>
+</body>
+</html>
