@@ -1,0 +1,681 @@
+html,body{
+	position: relative;
+	width: 1920px;
+	height: 2688px;
+	background: #FFFFFF;
+}
+.header{
+	margin-top: 2%;
+	background-color: white;
+	font-family: Museo Cyrillic;
+	font-size: 10px;
+	line-height: 12px;
+	width: 1110px;
+}
+.header .list li{
+	display:inline;
+	top: 4.85%;
+}
+ion-icon{
+	margin-left: 1%;
+	cursor: pointer;
+}
+ion-icon:hover{
+	color: green;
+}
+#a{
+
+}
+#a a{
+	color:black;
+}
+#a a:hover{
+	text-decoration: none;
+}
+#b{ 
+	position: absolute;
+	
+	bottom: 83.5%;
+}
+#list2{
+	border:none;
+}
+#e a{
+	color: black;
+}
+.header .list3{
+	margin-top: 2%;
+}
+.header .list3 li{
+	display: inline;
+
+}
+#a1{
+	
+	font-size: 30px;
+	color: green;
+}
+
+#b1 input{
+	border:hidden;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	
+}
+#c1 button{
+	border:none;
+	background-color: white;
+	color: green;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+}
+.list3 hr{
+	margin-top: 3%;
+	width: 140%;
+	color: black;
+	size: 1px;
+}
+#d1 button{
+	border: 1px solid #179942;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	color: green;
+	padding: 8px 16px 8px 16px;
+	
+}
+#e1 button{ 
+	border: 1px solid #179942;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: white;
+	color: green;
+	padding: 8px 16px 8px 16px;
+}
+#d1 button:hover,#e1 button:hover{
+	background-color: green;
+	color: white;
+}
+.list4{
+
+}
+.list4 li{
+	display: inline;
+	font-family: Museo Sans Cyrl;
+	font-size: 16px;
+	line-height: 19px;
+}
+.list4 a{
+	color: black;
+}
+.list4 a:hover{
+	text-decoration: none;
+	color:green;
+}
+#image1{
+	margin-top: 2%;
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(../img/E-litny-e-alkogol-ny-e-napitki.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1110px;
+    height: 480px;
+}
+.store p{
+	margin-top: 6%;
+	font-family: Museo Cyrillic;
+	font-size: 36px;
+	line-height: 43px;
+	color: white;
+}
+.store button{
+	margin-top: 150%;
+	color: white;
+	background-color: #179942;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	border: 1px solid #179942;
+	border-radius: 5px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	padding-left: 16px;
+	padding-right: 16px;
+	text-align: center;
+}
+#but1{
+	background: rgba(0,0,0,0.3);
+}
+#but2{
+	margin-left: 4%;
+	background: rgba(0,0,0,0.3);
+}
+#but1:hover{
+	border:1px solid grey;
+}
+#but2:hover{
+	border:1px solid grey;
+}
+
+#circle2{
+	margin-top: 100%;
+}
+#circle{
+	cursor: pointer;
+	margin-left: 2%;
+	width: 11px;
+	height: 11px;
+	border-radius: 50px!important;
+	border: 1px solid #179942;
+ 	background: rgba(0,0,0,0.3);
+}
+#circle3 li{
+	display: inline-block;
+}
+#circle:hover{
+	border:1px solid white;
+}
+.head h2{
+	font-family: Museo Cyrillic;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 12%;
+	margin-top: 10%;
+}
+#m1 .g1 {
+	margin-left: 1.7%;
+}
+.g1{
+	height: 320px!important;
+	border: 1px solid #DEE2E1!important;
+}
+.g2{
+	border: 1px solid #DEE2E1!important;
+}
+.g3{
+	height: 300px!important;
+	border: 1px solid #DEE2E1!important;
+}
+
+#m1 .goods{
+	border: 1px solid black;
+	height: 280px;
+	width: 250px;
+}	
+.fig1{
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+}
+.kuku{
+	width: 100%;
+	height: 100%;
+}
+.g2,.g3, .g4{
+	margin-left: 3%; 
+}
+.g1 b{
+	font-size: 24px;
+	line-height: 29px;
+}
+.g1 h2{
+	text-align: center;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: -8px;
+	left: 0;
+	width: 35%;
+	border-radius: 5px;
+	padding: 2px;
+	color: green;
+	background: #DEE2E1;
+}
+.g1 h3{
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: 24px;
+	left: 0;
+	width: 28%;
+	border-radius: 5px;
+	padding: 2px;
+	color: black;
+	background: #DEE2E1;
+}
+.g1 h4{
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: 66px;
+	left: 0;
+	width: 20%;
+	border-radius: 5px;
+	padding: 2px;
+	color: black;
+	background: #DEE2E1;
+}
+.g1 img{
+	padding: 15px 5px 15px 5px;
+}
+.star{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: linear-gradient(to bottom, rgba(197, 196, 196, 1) 0%, rgba(180, 179, 178, 1) 100%);
+  position: relative;
+  background: green;
+}
+.star:before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 1px;
+  right: 1px;
+  background: linear-gradient(to bottom, rgba(221, 220, 219, 1) 0%, rgba(209, 208, 206, 1) 100%);
+  z-index: 1;
+}
+.st1:before{
+	background: green;
+}
+.st2:before{
+	background: green;
+}
+.st3:before{
+	background: green;
+}
+.star,
+.star:before {
+  -webkit-clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+  clip-path: polygon(50% 0%, 66% 27%, 98% 35%, 76% 57%, 79% 91%, 50% 78%, 21% 91%, 24% 57%, 2% 35%, 32% 27%);
+}
+#bttn1{
+	margin-left: 30px;
+	text-decoration: none;
+	border: 1px solid #179942;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #179942;
+	color: white;
+}
+#bttn2{
+	margin-top: 10px;
+	text-decoration: none;
+	border: 1px solid #179942;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #179942;
+	color: white;
+}
+#bttn3{
+	margin-left: 10px;
+	text-decoration: none;
+	border: 1px solid #179942;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #179942;
+	color: white;
+}
+#bttn1 span{
+	margin-right: 5px;
+}
+#x{
+	margin-left: 5px;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+}
+#g1bg,#g2bg,#g3bg,#g4bg{
+	padding-top: 15px; 
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: -16px;
+	padding-bottom: 10px;
+	width: 250px;
+	background: #DEE2E1;
+	box-shadow: 0 3px 3px rgba(0,0,0,0.45);
+}
+#g3bg b, s{
+	margin-right: 15px;
+}
+.g2 b{
+	font-size: 24px;
+	line-height: 29px;
+}
+.g2 h2{
+	text-align: center;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: -8px;
+	left: 0;
+	width: 35%;
+	border-radius: 5px;
+	padding: 2px;
+	color: #179942;
+	background: #DEE2E1;
+}
+.g2 h3{
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: 24px;
+	left: 0;
+	width: 28%;
+	border-radius: 5px;
+	padding: 2px;
+	color: black;
+	background: #DEE2E1;
+}
+.g2 img{
+	padding: 12px 5px 12px 5px; 
+}
+.g3 b{
+	font-size: 24px;
+	line-height: 29px;
+}
+.g3 h2{
+	text-align: center;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: -8px;
+	left: 0;
+	width: 35%;
+	border-radius: 5px;
+	padding: 2px;
+	color: #179942;
+	background: #DEE2E1;
+}
+.g3 h3{
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: 24px;
+	left: 0;
+	width: 28%;
+	border-radius: 5px;
+	padding: 2px;
+	color: black;
+	background: #DEE2E1;
+}
+.g3 h4{
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	text-align: center;
+	border:1px solid #DEE2E1;
+	position: absolute;
+	top: 66px;
+	left: 0;
+	width: 20%;
+	border-radius: 5px;
+	padding: 2px;
+	color: black;
+	background: #DEE2E1;
+}
+.g3 img, .g4 img{
+	padding: 15px 5px 15px 5px;
+}
+.main h2{
+	margin-top: 65%;
+	font-family: Museo Cyrillic;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 12%;
+}
+.main p{
+	margin-top: 53%;
+	margin-left: -150px;
+	font-family: Museo Sans Cyrl;
+font-size: 16px;
+line-height: 19px;
+}
+#ic{
+	text-decoration: none;
+	border: 1px solid #DEE2E1;
+	font-size: 20px;
+	position: absolute;
+	top: 11px;
+	right: 10px;
+	border-radius: 5px;
+}
+.glyphicon-heart{
+	border: 1px solid green;
+	background: #DEE2E1;
+}
+ #active{
+	background-color: #179942!important;
+	color: white!important;
+}
+.list button{
+	width: 85%;
+	height: 40px;
+	border-opacity: 0.5;
+	border: 1px solid #179942;
+	box-sizing: border-box;
+	border-radius: 5px;
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+	color: #179942;
+	text-align: left;
+	padding-left: 15px;
+	text-decoration: none;
+	background-color: white;
+}
+.list button:hover{
+	background-color: #179942;
+	color: white;
+}
+.kuku1{
+	
+	width: 75%;
+	border: 1px solid #F4F4F4;
+	box-sizing: border-box;
+	border-radius: 5px;
+	height: 140px;
+}
+.list2 figcaption{
+	text-align: center;
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 74.5%;
+	background-color: #DEE2E1;
+}
+.list3 figcaption{
+	text-align: center;
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 74.5%;
+	background-color: #DEE2E1;
+	color: #179942;
+}
+.list4 figcaption{
+	text-align: center;
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	width: 74.5%;
+	background-color: #DEE2E1;
+}
+.main2 h2{
+	margin-top: 13%;
+	font-family: Museo Cyrillic;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 12%;
+}
+.kuku3{
+	width: 70%;
+	height: 80px;
+}
+.kuku4{
+	width: 65%;
+	height: 100px;
+	margin-top: 10%;
+}
+.main3 h2{
+	margin-top: 20%;
+	font-family: Museo Cyrillic;
+	font-size: 36px;
+	line-height: 43px;
+	margin-bottom: 12%;
+}
+.main3 p{
+	margin-top: 20%;
+	margin-left: -190px;
+	font-family: Museo Sans Cyrl;
+	font-size: 16px;
+	line-height: 19px;
+}
+.kuku5{
+	width: 90%;
+	height: 200px;
+	border: 1px solid #F4F4F4;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
+.list5 figcaption{
+	margin-top: 19px;
+	font-family: Museo Cyrillic;
+	font-size: 24px;
+	line-height: 29px;
+}
+.list5 p{
+	width: 80%;
+	margin-top: 15px;
+	font-family: Museo Sans Cyrl;
+	font-size: 14px;
+	line-height: 20px;
+}
+.list5 button{
+	margin-top: 15px;
+	text-decoration: none;
+	border: 1px solid #7D7D7D;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 8px 36px 8px 36px;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	background-color: white;
+}
+.list6 figcaption{
+	margin-top: 19px;
+	font-family: Museo Cyrillic;
+	font-size: 24px;
+	line-height: 29px;
+}
+.list6 p{
+	width: 80%;
+	margin-top: 15px;
+	font-family: Museo Sans Cyrl;
+	font-size: 14px;
+	line-height: 20px;
+}
+.list6 button{
+	margin-top: 36px;
+	text-decoration: none;
+	border: 1px solid #7D7D7D;
+	box-sizing: border-box;
+	border-radius: 5px;
+	padding: 8px 36px 8px 36px;
+	font-family: Museo Cyrillic;
+	font-size: 14px;
+	line-height: 17px;
+	background-color: grey;
+	color: white;
+}
+.list5 button:hover{
+	background-color: grey;
+	color: white;
+}
+.footer1{
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	margin-top: 3%;
+	width: 59%;
+}
+.footer1 .bold1 .col-lg-2{
+	margin-bottom: 11px;
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+}
+.footer1 .bold1 .col-lg-3{
+	margin-bottom: 11px;
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+}
+#br1{
+	margin-right: 50px;
+	color: #1FCC58;
+}
+#br2{
+	margin-right: 45px;
+}
+#br3{
+	margin-right: 26px;
+}
+#br4{
+	margin-right: 44px;
+}
+#br11{
+	color: #1FCC58;
+}
+#m{
+	color: #1FCC58;
+	font-size: 40px;
+	margin-left: -22px;
+}
+
+ .bold2, .bold3, .bold4, .bold5{
+	margin-bottom: 11px;
+	font-family: Museo Cyrillic;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+#m3{
+	color: red;
+}
+.m5{
+	color: black;
+}
+.bold2 div:hover,.bold3 div:hover,.bold4 div:hover,.bold5 div:hover{
+	color: #1FCC58;
+}
+
+
+
